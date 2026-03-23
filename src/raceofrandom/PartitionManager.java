@@ -3,7 +3,6 @@ package raceofrandom;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import javax.swing.JLabel;
 
 public class PartitionManager {
     
@@ -11,7 +10,6 @@ public class PartitionManager {
     int x;
     int y;
     GamePanel gp;
-    int colorChanger=0;
     
     PartitionManager(GamePanel gp){
         this.y=gp.carNum;

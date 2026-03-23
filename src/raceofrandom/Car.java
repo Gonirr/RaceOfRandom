@@ -1,5 +1,5 @@
 package raceofrandom;
-import Graph.*;
+import DataStructures.*;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -42,10 +42,10 @@ public class Car{
     }
     
     public void setX(int startX){
-        if(road>=x+length){
+        if(road>=x+length){//+length
             x+=speed;
         }
-        System.out.println("x="+x+" road="+road);
+        //System.out.println("x="+x+" road="+road);
         r.setLocation(x+startX, y);
     }
     

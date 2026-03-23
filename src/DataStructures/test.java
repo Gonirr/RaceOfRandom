@@ -1,4 +1,4 @@
-package Graph;
+package DataStructures;
 public class test {
     public static void main(String[] args) {
         GraphList g=new GraphList(4,4);

@@ -1,4 +1,4 @@
-package Graph;
+package DataStructures;
 public class GraphList {
     private int V;
     private int E;

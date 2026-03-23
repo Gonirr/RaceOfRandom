@@ -1,4 +1,4 @@
-package Graph;
+package DataStructures;
 public class Node <T>{
     T data;
     Node next;

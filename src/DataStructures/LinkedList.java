@@ -1,4 +1,4 @@
-package Graph;
+package DataStructures;
 public class LinkedList<T> {
     private Node first;
     private Node last;
